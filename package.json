@@ -1,0 +1,26 @@
+{
+  "name": "adventure-quest",
+  "version": "1.0.0",
+  "description": "A would-be React text adventure game",
+  "main": "src/index.js",
+  "directories": {
+    "test": ""
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyagras/adventure-quest.git"
+  },
+  "author": "Emily A Grasmeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyagras/adventure-quest/issues"
+  },
+  "homepage": "https://github.com/emilyagras/adventure-quest#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
