@@ -1,4 +1,5 @@
 'use strict';
+var path = require('path');
 
 const express = require('express');
 
@@ -9,7 +10,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world\n');
+  res.sendFile(path.join(__dirname, '..', 'resources', 'welcomePage.html'))
 });
 
 app.listen(PORT, HOST);
