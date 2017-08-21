@@ -1,0 +1,9 @@
+#startJourneyButton{
+    background: #525252;
+    color: #ffffff;
+    border: none;
+    width: 20%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0px;
+}
