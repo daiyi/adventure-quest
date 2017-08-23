@@ -1,0 +1,1 @@
+export const GOTO_ROOM = "GOTO_ROOM"

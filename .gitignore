@@ -3,3 +3,6 @@ node_modules/
 build/app.bundle.js
 node_modules/
 .idea/
+.DS_Store
+package-lock.json
+*.#
